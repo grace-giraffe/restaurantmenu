@@ -44,11 +44,13 @@ dd {margin: 0 0 12px 0; display: flex;}
    #price {
      font-size: 45px;
      font-color:'firebrick';
+     text-align:right;
+     
    }
 
 /* Draw a 2px dashed rosybrown border around the address/footer */
 address {padding: 10px;}
-     #address/footer {
+     #footer {
        border-size: 2px;
    }
      

@@ -25,13 +25,25 @@ h2 {margin-top: 0;}
 
 /* Make the name of each menu item appear in bold in a 16px size. */
 dt {display: inline;}
+#dt {
+  font-weight:bold
 /* Make a comma appear after the name of each menu item (before the description) */
 
-dd {display: inline; margin: 0;}
+   dt:after {
+     content: ",";
+     color: #aaa
+  
+
+    dd {display: inline; margin: 0;}
 dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 
 .price {float: right; padding: 0 0 35px 20px;}
 
 /* Right-align the text of the address/footer */
-
+footer {
+  text align:right
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
+#starters {
+  border-style:solid;
+  border-size:2px;
+  border-color: #aaa

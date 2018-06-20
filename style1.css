@@ -16,9 +16,13 @@ nav {font-family: sans-serif; font-size: 10px;}
   Color: #5d4037;
 }
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
-#menu {columns: 400px 2; column-gap: 100px;}
+#menu 
+  {columns: 400px 2; column-gap: 100px;}
 section {margin-bottom: 50px;}
-Column rule: 2px dashed rosybrown 
+ #columns {
+   Column-sized:2px;
+   Column-Weight:dashed;
+   Column-color:rosybrown;
 
 
 /* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */

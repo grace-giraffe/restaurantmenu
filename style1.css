@@ -5,7 +5,7 @@ nav {font-family: sans-serif; font-size: 10px;}
 * {
   Font-Family: 'Lato';
   Font-size:18px; 
-  background-image:URL('map-bg.jpg');
+  background-image:URL("map-bg.jpg");
 }
 
 #main {width: 900px; margin: 10px auto;}
